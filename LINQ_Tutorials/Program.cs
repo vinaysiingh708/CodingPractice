@@ -147,9 +147,9 @@ namespace LINQ_Tutorials
            var list1 = new string[] { "a", "b", "e", "f" };
            var list2 = new string[] { "c", "d", "e", "f" };
 
-           var result1 = list1.Except(list2).ToArray();
+           var result1 = list1.Except(list2);
 
-           var result2= list2.Except(list1).ToArray();
+           var result2= list2.Except(list1);
 
            var result3 = result1.Concat(result2);
 
