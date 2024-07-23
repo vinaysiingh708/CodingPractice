@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharacterInString", "CountCharacterInString\CountCharacterInString.csproj", "{C8808044-4CC9-4599-A1E1-E4F785205C14}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "JavascriptCodingInterview", "JavascriptCodingInterview\JavascriptCodingInterview.esproj", "{A0D94076-B82B-4478-A4A7-452238D1D37C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewQAndA", "InterviewQAndA\InterviewQAndA.csproj", "{A27D0962-4376-43D7-A2D3-390474A97E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Tutorials", "LINQ_Tutorials\LINQ_Tutorials.csproj", "{EC60B2E5-D8B7-49F9-97B3-4C13E71A6B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES256_AdvancedEncryptionStandard", "AES256_AdvancedEncryptionStandard\AES256_AdvancedEncryptionStandard.csproj", "{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AES256", "AES256", "{15AA33E7-BC4F-4AFF-AD7D-30A160C08686}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\intel\Desktop\AES256-Part1.png = C:\Users\intel\Desktop\AES256-Part1.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8808044-4CC9-4599-A1E1-E4F785205C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8808044-4CC9-4599-A1E1-E4F785205C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8808044-4CC9-4599-A1E1-E4F785205C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8808044-4CC9-4599-A1E1-E4F785205C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D94076-B82B-4478-A4A7-452238D1D37C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A27D0962-4376-43D7-A2D3-390474A97E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27D0962-4376-43D7-A2D3-390474A97E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27D0962-4376-43D7-A2D3-390474A97E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27D0962-4376-43D7-A2D3-390474A97E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC60B2E5-D8B7-49F9-97B3-4C13E71A6B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC60B2E5-D8B7-49F9-97B3-4C13E71A6B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC60B2E5-D8B7-49F9-97B3-4C13E71A6B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC60B2E5-D8B7-49F9-97B3-4C13E71A6B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A84A87B-F058-4541-BC82-1D3979CD1E60}
+	EndGlobalSection
+EndGlobal
