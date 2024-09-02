@@ -10,6 +10,9 @@ namespace ObserverDesignPattern
     {
         static void Main(string[] args)
         {
+            // What is Observer Design Pattern ?
+            //Establishes a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.
+
             Video video = new Video("test");
             EmailService emailService = new EmailService();
             SMSService sMSService = new SMSService();
