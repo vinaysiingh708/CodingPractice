@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.34525.116
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharacterInString", "CountCharacterInString\CountCharacterInString.csproj", "{C8808044-4CC9-4599-A1E1-E4F785205C14}"
 EndProject
@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AES256", "AES256", "{15AA33
 	ProjectSection(SolutionItems) = preProject
 		C:\Users\intel\Desktop\AES256-Part1.png = C:\Users\intel\Desktop\AES256-Part1.png
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "FactoryMethods\FactoryDesignPattern.csproj", "{A75D56F4-BC44-4E9C-895C-EA9DBD7B9305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{6469FADE-F9C9-428A-B23A-DCCEF5ADBDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{42903CC1-9C40-413B-A38B-A462CEF69A84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +52,18 @@ Global
 		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAEB767C-7C5A-4BEB-9DBB-FC3175850D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75D56F4-BC44-4E9C-895C-EA9DBD7B9305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75D56F4-BC44-4E9C-895C-EA9DBD7B9305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75D56F4-BC44-4E9C-895C-EA9DBD7B9305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75D56F4-BC44-4E9C-895C-EA9DBD7B9305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6469FADE-F9C9-428A-B23A-DCCEF5ADBDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6469FADE-F9C9-428A-B23A-DCCEF5ADBDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6469FADE-F9C9-428A-B23A-DCCEF5ADBDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6469FADE-F9C9-428A-B23A-DCCEF5ADBDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42903CC1-9C40-413B-A38B-A462CEF69A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42903CC1-9C40-413B-A38B-A462CEF69A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42903CC1-9C40-413B-A38B-A462CEF69A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42903CC1-9C40-413B-A38B-A462CEF69A84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

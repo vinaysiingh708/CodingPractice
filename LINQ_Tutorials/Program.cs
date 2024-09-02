@@ -675,7 +675,7 @@ namespace LINQ_Tutorials
             */
 
             /*
-            var fruits = new string[] { "Apple", "Banana", "Kiwi", "Orange"};
+            var fruits = new string[] { "Apple", "Banana", "Kiwi", "Orange","Apple"};
 
             var item = fruits.Single(f=>f.Length==4);
 
