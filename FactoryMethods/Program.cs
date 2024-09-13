@@ -3,10 +3,11 @@ namespace FactoryDesignPattern
 {
     // What is Factory Design Pattern in C#?
 
-    //a factory is an object used to create other objects.In technical terms, a factory is a class with a method.
+    //A factory is a class with a method.
     //That method creates and returns different objects based on the received input parameter.
 
-    //•	Use Cases : When the exact type of object to be created is not known until runtime.
+    //•	Use Cases : When the object creation is simple and doesn't require a complex decision-making process.
+
 
     //Define the Product Interface
     public interface INotificationSender

@@ -1,10 +1,11 @@
 ﻿using System;
 namespace FactoryMethodDesignPattern
 {
+    // What is Factory Method Design Pattern in C#?
 
-    //According to the Gang of Four, the Factory Method Design Pattern
-    //Defines an interface for creating an object but lets the subclasses decide which class to instantiate.
-    //The Factory method lets a class defer instantiation to subclasses.
+    //Defines an interface or abstract class for creating an object but lets the subclasses decide which class to instantiate.
+    //•	Use Cases : When you have a family of subclasses and you want to decide which subclass to instantiate based on certain conditions.
+
 
     // Product Interface: IDocument
     public interface IDocument

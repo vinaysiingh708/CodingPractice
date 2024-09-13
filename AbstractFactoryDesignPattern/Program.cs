@@ -8,6 +8,9 @@ namespace AbstractFactoryDesignPattern
 {
     // What is Abstract Factory ?
     //A super-factory that creates other factories, each responsible for creating families of related objects.
+
+    //•	Use Cases : When you need to create families of related objects, or need to ensure that different types of objects are compatible.
+
     public interface ICar 
     {
         void Manufacture();

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ObserverDesignPattern
 {
+
+    // The Observer Design Pattern in C# is a behavioral design pattern that defines a one-to-many relationship between objects.
+    // When the state of one object (the subject) changes, all of its dependent objects (observers) are notified and updated automatically.
     public delegate void OnVideoUploaded();
     class Video
     {
