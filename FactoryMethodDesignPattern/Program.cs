@@ -41,7 +41,7 @@ namespace FactoryMethodDesignPattern
         }
     }
 
-    // Creator: DocumentCreator
+    // Creator: DocumentCreator or factory method class
     public abstract class DocumentCreator
     {
         public abstract IDocument CreateDocument();
