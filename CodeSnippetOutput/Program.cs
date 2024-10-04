@@ -1,6 +1,6 @@
 ﻿using System;
 
-/*
+
 namespace Test
 {
     class Program
@@ -43,8 +43,9 @@ namespace Test
     }
 }
 
-*/
 
+
+/*
 namespace Test
 {
     public class MyClass
@@ -72,4 +73,5 @@ namespace Test
         }
     }
 }
+*/
 

@@ -185,8 +185,10 @@ namespace CountCharacterInString
 
             */
 
-            /*
+            //DSA Data Structures and Algorithms
 
+            
+            /*
             N(length of input) is an integer within the range[1, 600]
             each element of array A is a string consisting of three characters: "+" or "-"; a digit "0" - "9"; and uppercase English letter "A" - "Z"
             the sequence is correct.That is every booked room was previously free and every freed room was previously booked.
@@ -197,8 +199,8 @@ namespace CountCharacterInString
             Output: "1A"
             Explanation: 1A as it has been booked 2 times.
 
-            
-
+            */
+            /*
             string[] bookings = { "+1A", "+3E", "-1A", "+4F", "+1A", "-3E" };
             Dictionary<string, int> roomBookings = new Dictionary<string, int>();
 
@@ -229,13 +231,14 @@ namespace CountCharacterInString
                     Console.WriteLine("Room {0} booked {1} times",entry.Key, entry.Value);
             }
             Console.ReadLine();
-
             */
+            
 
             /*
                     //To find the equilibrium index in an array in C#, you need to identify an index where the sum of elements to
                     //the left is equal to the sum of elements to the right.
-
+            */
+            /*
                     int[] arr = { 1, 3, 5, 2, 2 };
                     int totalSum = 0, leftSum = 0;
 
@@ -265,6 +268,7 @@ namespace CountCharacterInString
                 This method leverages the fact that both arrays are already sorted, allowing you to combine them while maintaining sorted order.
              */
 
+            
             int[] arr1 = { 1, 3, 5, 7,9 };
             int[] arr2 = { 2, 4, 6, 8 };
 
@@ -305,7 +309,7 @@ namespace CountCharacterInString
                 Console.Write(item + " ");
             }
             Console.ReadLine();
-
+            
 
             /*    
              static int Method1()
