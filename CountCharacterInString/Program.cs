@@ -54,18 +54,15 @@ namespace CountCharacterInString
             // Print unique character in c#
 
             string str = "text";
-        var str1 = "";
-        Dictionary<char, int> charCount = new Dictionary<char, int>();
+            var str1 = "";
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
             foreach (var character in str)
-            {
-                if (character != ' ')
-                {
+            {                
                     if (!charCount.ContainsKey(character))
                     {
                         charCount.Add(character, 1);
                         str1 = str1 + character;
-                    }
-}
+                    }                
             }
 
             Console.WriteLine("{0}", str1);
