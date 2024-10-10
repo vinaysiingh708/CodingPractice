@@ -44,7 +44,33 @@ namespace CountCharacterInString
                 Console.WriteLine("{0} - {1}", character.Key,character.Value);
             }
             Console.ReadLine();
+            
+
+            
+        }
+
             */
+
+            // Print unique character in c#
+
+            string str = "text";
+        var str1 = "";
+        Dictionary<char, int> charCount = new Dictionary<char, int>();
+            foreach (var character in str)
+            {
+                if (character != ' ')
+                {
+                    if (!charCount.ContainsKey(character))
+                    {
+                        charCount.Add(character, 1);
+                        str1 = str1 + character;
+                    }
+}
+            }
+
+            Console.WriteLine("{0}", str1);
+            Console.ReadLine();
+
 
             //2.Find Duplicate Characters Count in a String in C#
             /*
@@ -70,7 +96,7 @@ namespace CountCharacterInString
                 Console.WriteLine($"Character {character.Key} repeating {character.Value} times");
             }
             Console.ReadLine();
-            
+
             */
 
             /*
@@ -79,10 +105,10 @@ namespace CountCharacterInString
                 string str = "interview point";
 
                 var charCount = from c in str
-						        where c != ' ' 
-						        group c by c into g
-						        select new {g.Key,Count= g.Count() } ;
-			
+                                where c != ' ' 
+                                group c by c into g
+                                select new {g.Key,Count= g.Count() } ;
+
 
                 foreach (var character in charCount)
                 {
@@ -90,7 +116,7 @@ namespace CountCharacterInString
                 }
 
                 Console.ReadLine();
-             
+
              */
 
             //3.Reverse a string
@@ -126,7 +152,7 @@ namespace CountCharacterInString
 
             Console.WriteLine(k);
             Console.ReadLine();
-            
+
             */
 
 
@@ -155,9 +181,9 @@ namespace CountCharacterInString
                */
 
             /*
-             
+
              * Find second highest in an array using LINQ in c#
-             
+
                     var array = new int[] { 10, 20, 4, 45, 99, 6, 78 };
 
                     var query = (from arr in array
@@ -173,21 +199,21 @@ namespace CountCharacterInString
 
             /*
              * Swapping of 2 numbers without using 3rd variable
-             
+
                 int a = 50;
-		        int b = 100;
-		
-		        a = a + b;
-		        b = a - b;
-		        a = a - b;
-		
-		        Console.WriteLine("a = {0}, b = {1}",a,b);
+                int b = 100;
+
+                a = a + b;
+                b = a - b;
+                a = a - b;
+
+                Console.WriteLine("a = {0}, b = {1}",a,b);
 
             */
 
             //DSA Data Structures and Algorithms
 
-            
+
             /*
             N(length of input) is an integer within the range[1, 600]
             each element of array A is a string consisting of three characters: "+" or "-"; a digit "0" - "9"; and uppercase English letter "A" - "Z"
@@ -232,7 +258,7 @@ namespace CountCharacterInString
             }
             Console.ReadLine();
             */
-            
+
 
             /*
                     //To find the equilibrium index in an array in C#, you need to identify an index where the sum of elements to
@@ -268,7 +294,7 @@ namespace CountCharacterInString
                 This method leverages the fact that both arrays are already sorted, allowing you to combine them while maintaining sorted order.
              */
 
-            
+            /*
             int[] arr1 = { 1, 3, 5, 7,9 };
             int[] arr2 = { 2, 4, 6, 8 };
 
@@ -309,7 +335,7 @@ namespace CountCharacterInString
                 Console.Write(item + " ");
             }
             Console.ReadLine();
-            
+            */
 
             /*    
              static int Method1()
