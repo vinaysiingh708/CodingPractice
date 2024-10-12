@@ -52,7 +52,7 @@ namespace CountCharacterInString
             */
 
             // Print unique character in c#
-
+            /*
             string str = "text";
             var str1 = "";
             Dictionary<char, int> charCount = new Dictionary<char, int>();
@@ -67,6 +67,7 @@ namespace CountCharacterInString
 
             Console.WriteLine("{0}", str1);
             Console.ReadLine();
+            */
 
 
             //2.Find Duplicate Characters Count in a String in C#
@@ -262,38 +263,32 @@ namespace CountCharacterInString
                     //the left is equal to the sum of elements to the right.
             */
             /*
-                    int[] arr = { 1, 3, 5, 2, 2 };
-                    int totalSum = 0, leftSum = 0;
-
+                    var arr = { 1, 3, 5, 2, 2 };
+                    var totalSum = 0, leftSum = 0;
                     // Calculate the total sum of the array
                     for (int i = 0; i < arr.Length; i++)
                         totalSum = totalSum + arr[i];
-
                     // Traverse the array and check for the equilibrium index
                     for (int i = 0; i < arr.Length; i++)
                     {
                         // totalSum - arr[i] is now the right sum for index i
                         totalSum = totalSum - arr[i];
-
                         // If leftSum equals the right sum, return the index
                         if (leftSum == totalSum)
                         Console.WriteLine(i);
-
                         // Update leftSum for the next iteration
                         leftSum = leftSum + arr[i];
                     }
                     Console.ReadLine();
-
             */
-
             /*
                 To merge two sorted arrays in C# efficiently, you can use a two-pointer approach, which is optimal in terms of time complexity. 
                 This method leverages the fact that both arrays are already sorted, allowing you to combine them while maintaining sorted order.
              */
 
-            /*
-            int[] arr1 = { 1, 3, 5, 7,9 };
-            int[] arr2 = { 2, 4, 6, 8 };
+
+            var arr1 = new int[]{ 1, 3, 5, 7,9 };
+            var arr2 = new int[] { 2, 4, 6, 8 };
 
             int n1 = arr1.Length;
             int n2 = arr2.Length;
@@ -332,7 +327,7 @@ namespace CountCharacterInString
                 Console.Write(item + " ");
             }
             Console.ReadLine();
-            */
+            
 
             /*    
              static int Method1()
