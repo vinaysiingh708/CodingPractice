@@ -322,10 +322,7 @@ namespace CountCharacterInString
             }
 
             Console.WriteLine("Merged Sorted Array: ");
-            foreach (var item in mergedArray)
-            {
-                Console.Write(item + " ");
-            }
+            Console.WriteLine(string.Join(",", mergedArray));
             Console.ReadLine();
             
 
