@@ -106,6 +106,7 @@ namespace LINQ_Tutorials
             {
                 Console.WriteLine(item);      
             }
+            //Console.WriteLine(string.Join(",",query));
             Console.ReadLine();
 
             */
@@ -157,6 +158,7 @@ namespace LINQ_Tutorials
            {
                Console.WriteLine(item);
            }
+            //Console.WriteLine(string.Join(",",result3));
            Console.ReadLine();
 
              */

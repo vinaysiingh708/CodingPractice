@@ -225,7 +225,7 @@ namespace CountCharacterInString
 
             */
             /*
-            string[] bookings = { "+1A", "+3E", "-1A", "+4F", "+1A", "-3E" };
+            var bookings =new string[]{ "+1A", "+3E", "-1A", "+4F", "+1A", "-3E" };
             Dictionary<string, int> roomBookings = new Dictionary<string, int>();
 
             foreach (var booking in bookings)
