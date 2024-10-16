@@ -263,8 +263,9 @@ namespace CountCharacterInString
                     //the left is equal to the sum of elements to the right.
             */
             /*
-                    var arr = { 1, 3, 5, 2, 2 };
-                    var totalSum = 0, leftSum = 0;
+                    var arr =new int[] { 1, 3, 5, 2, 2 };
+                    int totalSum = 0;
+					int leftSum = 0;
                     // Calculate the total sum of the array
                     for (int i = 0; i < arr.Length; i++)
                         totalSum = totalSum + arr[i];

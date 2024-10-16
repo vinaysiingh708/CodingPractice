@@ -169,7 +169,7 @@ namespace LINQ_Tutorials
 
             var query = from num in list1.Distinct()
                         select num;
-
+            //Console.WriteLine(string.Join(",",query));
             foreach (var item in query)
             {
                 Console.WriteLine(item);
