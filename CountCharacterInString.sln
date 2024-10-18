@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippetOutput", "CodeSn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagonal in 2D array", "Diagonal in 2D array\Diagonal in 2D array.csproj", "{B0638E8D-D667-469E-847A-EE1C806E52E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Any Number Equals Largest Number", "Sum of Any Number Equals Largest Number\Sum of Any Number Equals Largest Number.csproj", "{87A9872F-EDBB-4103-9C20-75B3982901C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A9872F-EDBB-4103-9C20-75B3982901C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A9872F-EDBB-4103-9C20-75B3982901C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A9872F-EDBB-4103-9C20-75B3982901C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A9872F-EDBB-4103-9C20-75B3982901C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
