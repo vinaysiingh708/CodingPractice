@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverDesignPattern", "Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippetOutput", "CodeSnippetOutput\CodeSnippetOutput.csproj", "{C4569BEE-DAA5-4D1B-9653-08AA32420D63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagonal in 2D array", "Diagonal in 2D array\Diagonal in 2D array.csproj", "{B0638E8D-D667-469E-847A-EE1C806E52E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{C4569BEE-DAA5-4D1B-9653-08AA32420D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4569BEE-DAA5-4D1B-9653-08AA32420D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4569BEE-DAA5-4D1B-9653-08AA32420D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0638E8D-D667-469E-847A-EE1C806E52E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
