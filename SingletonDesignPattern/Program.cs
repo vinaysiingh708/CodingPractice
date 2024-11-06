@@ -55,6 +55,7 @@ namespace SingletonDesignPattern
             }
 
             singleton1.DoSomething();
+            Console.ReadLine();
         }
     }
 }

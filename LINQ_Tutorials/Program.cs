@@ -40,11 +40,7 @@ namespace LINQ_Tutorials
                         orderby word.Length
                         select word;
 
-            foreach (var word in  query)
-            {
-                Console.WriteLine(word);
-            }
-            Console.ReadLine();
+            Console.WriteLine(string.Join(",",query));
             */
 
             /*
